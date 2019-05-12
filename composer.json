@@ -6,10 +6,10 @@
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.3.3",
-        "interop/lenient-messaging": "*"
+        "interop-phpobjects/lenient-messaging": "*"
     },
     "require-dev": {
-        "interop/lenient-messaging": "*",
+        "interop-phpobjects/lenient-messaging": "*",
         "rindow/rindow-messaging": "*",
         "rindow/rindow-container": "*",
         "rindow/rindow-transaction": "*",
