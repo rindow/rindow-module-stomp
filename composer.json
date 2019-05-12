@@ -1,0 +1,41 @@
+{
+    "name": "rindow/rindow-module-stomp",
+    "type": "library",
+    "description": "Rindow compatible module for STOMP Protocol",
+    "keywords": ["rindow","framework","messaging","stomp","ActiveMQ"],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "interop/lenient-messaging": "*"
+    },
+    "require-dev": {
+        "interop/lenient-messaging": "*",
+        "rindow/rindow-messaging": "*",
+        "rindow/rindow-container": "*",
+        "rindow/rindow-transaction": "*",
+        "rindow/rindow-stdlib": "*"
+    },
+    "suggest": {
+        "rindow/rindow-container": "It needs some service container",
+        "rindow/rindow-messaging": "When it use on the managed transactional messaging interface",
+        "rindow/rindow-transaction": "When it use on the managed transactional messaging interface"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rindow\\Module\\Stomp\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://rindow.github.io/rindow-packagist/packages.json",
+            "options": {
+                "ssl": {
+                    "verify_peer": "true"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev"
+}
