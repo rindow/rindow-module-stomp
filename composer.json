@@ -10,10 +10,10 @@
     },
     "require-dev": {
         "interop-phpobjects/lenient-messaging": "*",
-        "rindow/rindow-messaging": "*",
-        "rindow/rindow-container": "*",
-        "rindow/rindow-transaction": "*",
-        "rindow/rindow-stdlib": "*"
+        "rindow/rindow-messaging": "1.*",
+        "rindow/rindow-container": "1.*",
+        "rindow/rindow-transaction": "1.*",
+        "rindow/rindow-stdlib": "1.*"
     },
     "suggest": {
         "rindow/rindow-container": "It needs some service container",
@@ -24,18 +24,5 @@
         "psr-0": {
             "Rindow\\Module\\Stomp\\": "src/"
         }
-    },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://rindow.github.io/rindow-packagist/packages.json",
-            "options": {
-                "ssl": {
-                    "verify_peer": "true"
-                }
-            }
-        }
-    ],
-    "minimum-stability": "dev"
+    }
 }
